@@ -1,0 +1,30 @@
+spring:
+  application:
+    name: coffeemachine
+  datasource:
+    url: jdbc:mysql://localhost:3306/coffeesmachine?createDatabaseIfNotExist=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+    username: root
+    password: ''
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQL8Dialect
+    hibernate:
+      ddl-auto: update
+
+build:
+  version: "1.0"
+
+account:
+  message: "Welcome to Coffee Prod"
+  details:
+    name: "Bob"
+    email: "{cipher}386e0654efaef632ff20e0ccf002e72a4e7e3773b69b2700f985f6e2f769295b"
+  phone:
+  - 029878798
+  - 009090090
+
+
+

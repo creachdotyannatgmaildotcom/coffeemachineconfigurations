@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: coffeemachine
+
+
+build:
+  version: "3.0"
+
+account:
+  message: "Welcome to Coffee App"
+  details:
+    name: "Bob"
+    email: "kjkj@kjlk.fr"
+  phone:
+  - 029878798
+  - 009090090
+
+
+
