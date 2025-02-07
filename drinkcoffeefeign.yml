@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: drinkcoffeefeign
+
+
+server:
+  port: 8090
+
+
